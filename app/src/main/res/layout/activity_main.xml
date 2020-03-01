@@ -4,12 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FA8072"
     tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/readerwriter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"></ListView>
 
     <ListView
         android:id="@+id/myPDFList"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="5dp"/>
+        android:padding="6dp"/>
 
 </RelativeLayout>
